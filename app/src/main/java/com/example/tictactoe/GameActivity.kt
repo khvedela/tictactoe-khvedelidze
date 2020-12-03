@@ -55,7 +55,7 @@ class GameActivity : AppCompatActivity(), View.OnClickListener {
         var name2 = ""
 
         if (extras != null) {
-            name1 = extras.getString("Key1", "Player22")
+            name1 = extras.getString("Key1", "Player1")
             name2 = extras.getString("Key2", "Player2")
         }
 
