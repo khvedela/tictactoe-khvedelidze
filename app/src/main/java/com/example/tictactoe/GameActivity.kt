@@ -47,7 +47,7 @@ class GameActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game)
 
-        
+
 
         val extras = intent.extras
 
@@ -55,7 +55,7 @@ class GameActivity : AppCompatActivity(), View.OnClickListener {
         var name2 = ""
 
         if (extras != null) {
-            name1 = extras.getString("Key1", "Player")
+            name1 = extras.getString("Key1", "Player22")
             name2 = extras.getString("Key2", "Player2")
         }
 
